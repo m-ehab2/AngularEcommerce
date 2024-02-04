@@ -1,18 +1,3 @@
-## Kayal was here before ehab hh
-
-## Ehab Was Here
-
-## Mahmoud Moesi
-
-## antka
-
-## Daker was Here
-
-## Kayal tany
-## Mahmoud Moesi 
-##antka
-## Daker was Here
-
 # AngularEcommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
