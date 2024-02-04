@@ -1,11 +1,12 @@
-import { Component,Input, input} from '@angular/core';
+import { Component,Input} from '@angular/core';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-page-hero',
   templateUrl: './page-hero.component.html',
   styleUrls: ['./page-hero.component.css'],
   standalone:true,
-  imports:[]
+  imports:[MatIconModule]
 })
 export class PageHeroComponent {
   @Input() url!: string;
