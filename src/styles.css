@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  --body-font: "Inter",sans-serif;
 }
 
 body {
