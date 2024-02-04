@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--title-font);
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__account {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__search__input {
+  border: none;
+  outline: none;
+  /* width: 0; */
+}
