@@ -12,12 +12,12 @@
   --border-gray: #e5e5e5;
   --black: #121212;
   --title-font: "Space Grotesk", sans-serif;
+  --body-font: "Inter",sans-serif;
   --border-radius: 4px;
 }
 
 html {
   scroll-behavior: smooth;
-  --body-font: "Inter",sans-serif;
 }
 
 body {
@@ -59,5 +59,4 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
