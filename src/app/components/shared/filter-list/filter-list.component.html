@@ -1,0 +1,6 @@
+<div class="app-filter-list">
+  <h2>{{ title }}</h2>
+  <ul>
+    <li *ngFor="let item of items" (click)="selectItem(item)"    [class.active]="selectedItem === item">{{ item }}</li>
+  </ul>
+</div>
