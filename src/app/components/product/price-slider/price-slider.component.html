@@ -1,0 +1,14 @@
+<div class="price-slider-container">
+  <h2>Price</h2>
+  <mat-slider
+    class="price-slider"
+    [min]="minValue"
+    [max]="maxValue"
+    discrete:false
+    (change)="handleChange($event)"
+    [step]="step"
+  >
+    <input [(ngModel)]="valLeft" matSliderStartThumb />
+    <input [(ngModel)]="valRight" matSliderEndThumb />
+  </mat-slider>
+</div>

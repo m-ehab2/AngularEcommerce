@@ -1,0 +1,32 @@
+.app-filter-list{
+    h2{
+        font-family: var(--body-font);
+        font-size: 1.1rem;
+        margin: 0px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 10px;
+        align-items: start;
+    }
+    li{
+        font-family: var(--body-font);
+        font-size: 1.1rem;
+        color: var(--text-gray);
+        font-weight: 600;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+    }
+    li.active{
+        color: var(--black);
+        border-bottom: 2px solid var(--black);
+
+    }
+
+}

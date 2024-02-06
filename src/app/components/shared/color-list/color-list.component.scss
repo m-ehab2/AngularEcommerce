@@ -1,0 +1,51 @@
+.color-list{
+    h2{
+        font-family: var(--body-font);
+        font-size: 1.1rem;
+        margin: 0px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+        align-items: start;
+        margin-left: 10px;
+    }
+    li{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transition: all 0.25s ease-in-out;
+        border: 1px solid transparent; 
+
+    }
+    li.active{
+        position: relative;
+    }
+    .active {
+        position: relative; /* Required for pseudo-elements */
+        border: 1px solid var(--black); /* Inner border */
+      }
+      
+      .active::before,
+      .active::after {
+        content: '';
+        position: absolute;
+        top: 0px; 
+        left: 0px; 
+        right: 0px; 
+        bottom: 0px; 
+      }
+      
+      .active::before {
+        border: 1px solid var(--black); /* Outer border */
+        border-radius: 50%; /* Optional: Add rounded corners */
+      }
+      
+      .active::after {
+        border: 3px solid var(--bg-gray); /* Middle border */
+        border-radius: 50%; /* Optional: Add rounded corners */
+      }
+      
+}

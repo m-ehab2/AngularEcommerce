@@ -1,0 +1,16 @@
+<div class="size-list">
+    <h2>Color</h2>
+    <div class="ul-container">
+        <ul>
+          <li (click)="selectSize('S')" [class.active]="selectedSize === 'S'">S</li>
+          <li (click)="selectSize('M')" [class.active]="selectedSize === 'M'" >M</li>
+          <li (click)="selectSize('L')" [class.active]="selectedSize === 'L'" >L</li>
+          <li (click)="selectSize('XL')" [class.active]="selectedSize === 'XL'" >XL</li>
+        </ul>
+        <ul>
+          <li (click)="selectType('One Size')" [class.active]="selectedType === 'One Size'">One Size</li>
+          <li (click)="selectType('Custom')" [class.active]="selectedType === 'Custom'" >Custom</li>
+        </ul>
+    </div>
+  </div>
+  

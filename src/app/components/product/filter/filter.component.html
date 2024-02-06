@@ -1,0 +1,27 @@
+<div class="filter__container">
+  <div class="filter__header">
+    <h1>Filter</h1>
+    <a href=""><mat-icon>close</mat-icon> </a>
+  </div>
+  <app-filter-list
+    [title]="'Categories'"
+    [items]="['Pants', 'Skirts', 'Shoes']"
+    (itemSelected)="handleCatSelection($event)"
+    [selectedItem]="'Pants'"
+  ></app-filter-list>
+  <app-color-list
+    (itemSelected)="handleColSelection($event)"
+    [selectedItem]="'green'"
+  ></app-color-list>
+  <app-sizes-list
+    (sizeSelected)="handleSizeSelection($event)"
+    (typeSelected)="handleTypeSelection($event)"
+    [selectedSize]="'S'"
+    [selectedType]="'One Size'"
+  ></app-sizes-list>
+  <app-price-slider
+    [maxValue]="3600"
+    [minValue]="0"
+    (rangeChanged)="handleRangeSelection($event)"
+  ></app-price-slider>
+</div>
