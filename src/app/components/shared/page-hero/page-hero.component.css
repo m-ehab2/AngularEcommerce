@@ -3,40 +3,30 @@
   padding-bottom: 75px;
   width: 100%;
   background: rgb(246, 246, 246);
-  background: linear-gradient(
-      128deg,
-      rgba(246, 246, 246, 0.05) 50%,
-      rgba(218, 155, 161, 0.5) 100%
-    ),
-    linear-gradient(
-      90deg,
-      rgba(246, 246, 246, 1) 0%,
-      rgb(167, 185, 237, 0.5) 30%,
-      rgba(246, 246, 246, 1) 100%
-    );
+  background: linear-gradient(128deg, rgba(246, 246, 246, 0.05) 50%, rgba(218, 155, 161, 0.5) 100%), linear-gradient(90deg, rgb(246, 246, 246) 0%, rgba(167, 185, 237, 0.5) 30%, rgb(246, 246, 246) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  .pageHero__URL,p{
-    color: var(--text-gray);
-  }
-  .pageHero__URL{
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  h1{
-    font-family: var(--title-font);
-    font-weight: 700;
-    font-size: 2rem;
-  }
-  p{
-    width: 60%;
-    font-size: 1.1rem;
-    font-weight: 300;
-    text-align: center;
-  }
 }
-
+.pageHero__container .pageHero__URL,
+.pageHero__container p {
+  color: var(--text-gray);
+}
+.pageHero__container .pageHero__URL {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageHero__container h1 {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.pageHero__container p {
+  width: 60%;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-align: center;
+}/*# sourceMappingURL=page-hero.component.css.map */
