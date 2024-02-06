@@ -1,0 +1,22 @@
+.filter__container {
+  padding: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.filter__container .filter__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.filter__container .filter__header h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: var(--title-font);
+  margin: 0px;
+}
+.filter__container .filter__header mat-icon {
+  height: 20px;
+}/*# sourceMappingURL=filter.component.css.map */
