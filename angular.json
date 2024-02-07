@@ -31,7 +31,9 @@
             ],
             "styles": [
               "src/reset.scss",
-              "src/styles.scss"
+              "src/styles.scss",{
+                "input":"src/custom-theme.scss"
+              }
             ],
             "scripts": []
           },
