@@ -1,0 +1,27 @@
+.footer__data--info {
+  li {
+    margin-top: 10px;
+
+    &:hover {
+      transform: translateX(5px) translateY(-3px);
+      -webkit-transform: translateX(5px) translateY(-3px);
+      -moz-transform: translateX(5px) translateY(-3px);
+      -ms-transform: translateX(5px) translateY(-3px);
+      -o-transform: translateX(5px) translateY(-3px);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--text-gray);
+      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+
+      &:hover {
+        color: var(--black);
+      }
+    }
+  }
+}

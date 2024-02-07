@@ -1,0 +1,20 @@
+<div id="dropmenu" class="footer__data-dropmenu">
+  <div class="menu-container">
+    <div class="menu-toggler" (click)="toggleMenu()">
+      <div class="menu-toggler__title">
+        <h2>{{ title }}</h2>
+      </div>
+      <div class="menu-toggeler__icon">
+        <mat-icon>keyboard_arrow_down</mat-icon>
+      </div>
+    </div>
+    <div class="menu" *ngIf="isMenuOpened">
+      <div *ngFor="let item of menuItems">
+        <div class="menu-item">
+          <a href="{{ item.href }}">{{ item.link }}</a>
+        </div>
+      </div>
+    </div>
+    <hr />
+  </div>
+</div>

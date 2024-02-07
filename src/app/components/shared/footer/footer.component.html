@@ -1,0 +1,24 @@
+<div class="footer container">
+  <div class="footer__logo-section">
+    <div class="small-sc-logo">
+      <app-logo></app-logo>
+      <app-footer-about></app-footer-about>
+    </div>
+
+    <div class="social-links">
+        <app-social-links></app-social-links>
+    </div>
+  
+  </div>
+  <div class="small-Sc-dropdown">
+    <app-dropdown [title]="'shop'"></app-dropdown>
+    <app-dropdown [title]="'company'"></app-dropdown>
+    <app-dropdown [title]="'shop'"></app-dropdown>
+  </div>
+  <div class="footer__data-section">
+    <app-shop-module [items]="shopItems"></app-shop-module>
+    <app-info-module [items]="infoItems"></app-info-module>
+    <app-company-module [items]="companyItems"></app-company-module>
+  </div>
+</div>
+<hr />

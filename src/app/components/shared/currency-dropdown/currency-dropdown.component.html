@@ -1,0 +1,23 @@
+<div class="sub-footer__currency">
+  <div class="menu-container">
+    <div class="menu-toggler">
+      <div class="dropdown__currency">
+        <div class="dropdown__currency--text">
+          <div><h3>USD</h3></div>
+          <div (click)="toggleMenuCurrency()">
+            <mat-icon>keyboard_arrow_down</mat-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu" *ngIf="isMenuOpenedCurrency">
+      <div class="menu-item">
+        <div class="dropdown__currency">
+          <div class="dropdown__currency--text sec-item">
+            <div><h3>LE.</h3></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
