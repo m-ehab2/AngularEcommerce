@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ThemePalette } from '@angular/material/core';
 
 @Component({
   selector: 'app-price-slider',
@@ -16,6 +17,7 @@ export class PriceSliderComponent {
   @Input() minValue!: number;
   @Input() maxValue!: number;
   @Input() step: number = 10;
+  color: ThemePalette = 'primary';
   valLeft!: number;
   valRight!: number;
   ngOnInit() {
