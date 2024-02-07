@@ -1,0 +1,14 @@
+.sub-footer__copy-rights {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+
+@media (max-width: 992px) {
+    .sub-footer__copy-rights {
+        justify-content: center;
+    }
+}

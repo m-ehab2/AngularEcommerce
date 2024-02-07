@@ -1,0 +1,27 @@
+<div class="menu-container">
+  <div class="menu-toggler">
+    <div class="dropdown__lang">
+      <div class="dropdown__lang--img">
+        <img src="./assets/Eng-Flag.png" alt="" />
+      </div>
+      <div class="dropdown__lang--text">
+        <div><h3>English</h3></div>
+        <div (click)="toggleMenuLang()">
+          <mat-icon>keyboard_arrow_down</mat-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu" *ngIf="isMenuOpenedLang">
+    <div class="menu-item">
+      <div class="dropdown__lang">
+        <div class="dropdown__lang--img">
+          <img src="./assets/Egy.png" alt="" />
+        </div>
+        <div class="dropdown__lang--text">
+          <div><h3>Arabic</h3></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

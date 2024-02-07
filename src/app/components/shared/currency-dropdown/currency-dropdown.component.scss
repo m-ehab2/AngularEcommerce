@@ -1,0 +1,11 @@
+.dropdown__currency--text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 13px;
+
+  .sec-item {
+    margin-top: 10px;
+  }
+}
