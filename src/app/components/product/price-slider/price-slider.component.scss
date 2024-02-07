@@ -1,0 +1,23 @@
+.price-slider-container{
+    h2{
+        font-family: var(--body-font);
+        font-size: 1.1rem;
+        margin: 0px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    mat-slider{
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider-text{
+        display: flex;
+        justify-content: space-around;
+        font-family: var(--body-font);
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+}

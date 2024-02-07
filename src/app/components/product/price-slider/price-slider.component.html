@@ -7,9 +7,11 @@
     discrete:false
     (change)="handleChange($event)"
     [step]="step"
-    [color]="color"
   >
     <input [(ngModel)]="valLeft" matSliderStartThumb />
     <input [(ngModel)]="valRight" matSliderEndThumb />
   </mat-slider>
+  <div class="slider-text">
+    <span>{{ valLeft }}$ - {{ valRight }}$</span>
+  </div>
 </div>
